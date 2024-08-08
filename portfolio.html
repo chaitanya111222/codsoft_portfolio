@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        body, html {
+  height: 100vh;
+  margin: 0;
+}
+
+
+        .header{
+            border: 2px solid;
+            height: 70px;
+            display: flex;
+            justify-content: space-evenly;
+           background-color: whitesmoke;
+           border-color: beige;
+        }
+        .header:hover{
+            border-color: blueviolet;
+        }      
+        .animation-container {
+  position: relative;
+  width: 500px; /* Set the width of the container */
+  height: 300px; /* Set the height of the container */
+}
+
+.image-1, .image-2 {
+  position: absolute;
+  top: 0;
+  
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s; /* Set the transition effect */
+}
+
+.image-2 {
+  opacity: 0; /* Hide the second image initially */
+}
+
+.animation-container:hover .image-1 {
+  opacity: 0; /* Hide the first image on hover */
+}
+
+.animation-container:hover .image-2 {
+  opacity: 1; /* Show the second image on hover */
+}
+.sec1{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+            border:2px solid;
+            height:380px;
+            width:700px;
+            background-color: whitesmoke;
+            margin-top: 50px;
+            margin-left: 370px;
+        }
+        .b1{
+            border:1px solid;
+            height:40px;
+            width:80px;
+            border-radius: 10px;
+            background-color: lightblue;
+            transition-duration: 5s;
+            transition-property: rotate(15deg);
+           transition-timing-function: ease-out;
+           box-shadow: 2px 1px;
+        }
+        .b2{
+            border:1px solid;
+            height:40px;
+            width:80px;
+            border-radius: 10px;
+            background-color: lightblue;
+            transition-duration: 5s;
+            transition-property: rotate(15deg);
+            transition-timing-function: ease-out;
+            box-shadow: 2px 1px;
+        }
+        .b3{
+            border:1px solid;
+            height:40px;
+            width:80px;
+            border-radius: 10px;
+            background-color: lightblue;
+            transition-duration: 5s;
+            transition-property: rotate(15deg);
+            transition-timing-function: ease-out;
+            box-shadow: 2px 1px;
+        }
+        .b4{
+            border:1px solid;
+            height:40px;
+            width:80px;
+            border-radius: 10px;
+            background-color: lightblue;
+            transition-duration: 5s;
+            transition-property: steps 10px;
+            box-shadow: 2px 1px;
+            
+        }
+        .b5{
+            border:1px solid;
+            height:40px;
+            width:80px;
+            border-radius: 10px;
+            background-color: lightblue;
+            transition-duration: 5s;
+            transition-property: steps 10px;
+            box-shadow: 2px 1px;
+            
+        }
+        .box:hover{
+            background-color: lightcyan;
+        }
+        .corn:hover{
+        .b1{
+            width:96%;
+            background-color: brown;
+ }
+ .b2{
+    width:96%;
+    background-color: blue;
+ }
+ .b3{
+    width:70%;
+    background-color:orangered;
+ }
+ .b4{
+    width:80%;
+    background-color:orchid;
+ }
+ .b5{
+    width:80%;
+    background-color:rgb(255, 0, 166);
+ }
+}
+.c1{
+    border: 2px solid;
+    height: 250px;
+    width: 200px;
+    margin-top: 20px;
+   margin-left: 60px;
+}
+.c2{
+    border: 2px solid;
+    height: 250px;
+    width: 200px;
+    margin-top: 20px;
+   margin-right: 10px;
+    
+}
+.c3{
+    border: 2px solid;
+    height: 250px;
+    width: 200px;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#blast {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+}
+
+#blast.animate {
+	animation: blast 1s ease-out;
+}
+
+@keyframes blast {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(10);
+		opacity: 0;
+	}
+}
+.footer{
+    border:2 px solid;
+    height: 200px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img style="padding-left: 5px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMmLQ1liZsB1dJTPSd_hBBdasqOFNXgv-7AA&s"height="70px"width="70px">
+        <a style="text-decoration: none;color:black"href=""><h2>About</h2></a>
+        <a style="text-decoration: none;color:black"href=""><h2>Skills</h2></a>
+        <a style="text-decoration: none;color:black"href=""><h2>Internships</h2></a>
+        <a style="text-decoration: none;color:black"href=""><h2>Projects</h2></a>
+        <a style="text-decoration: none;color:black"href=""><h2>Declaration</h2></a>
+    </div>
+    <div class="sec-1">
+    <h1 style="font-size: 55px;padding-top: 40px;padding-left: 300px;">Hi ,<br><h1 style="font-size: 55px;padding-left: 140px;color:brown ;">I'm chaitanyalakshmi</h1></h1>
+    <img style="position: absolute;top:160px;padding-left: 900px;"src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsb2ZmaWNlN18zZF9zdHlsZV9naXJsX3NheWluZ19oZWxsb193aXRoX3NtaWxlX2lzb2xhdGVkX19hZmRjNTJhNC02OTllLTRmNDUtYWM5NS1lOWRmYTMwZTQ3YzVfMS5wbmc.png"height="300px" width="400px">
+    <img style="padding-left: 280px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMo6dfNsiMH_kDfoqKEU4IjiqJstuqpW3xgA&s"height="80px"width="80px">
+   
+    <h1 style="font-size: 30px;padding-top: 140px;padding-left: 180px;color: blue;">Career Objective :</h1><br>
+    <i style="font-family:60px; position: absolute;top:605px;padding-left: 150px;"class="fa-solid fa-bell"height="100px"></i>
+    <i style="padding-left: 30px;"class="fa-solid fa-arrow-right"></i><h2 style="position: absolute;top:640px;padding-left: 90px;">Aspiring to become an "FULLSTACKDEVELOPER"</h2><br>
+   <i style="padding-left: 30px;padding-top: 35px;"class="fa-solid fa-arrow-right"></i><h2 style="position: absolute;top:690px;padding-left: 90px;">As a part of this I'm started learning "FRONTEND"<br><br>and I have developed my coding skills by taking INTERNSHIPS</h2><br>
+   <br><i style="padding-left: 30px;padding-top: 75px;"class="fa-solid fa-arrow-right"></i><h2 style="position: absolute;top:800px;padding-left: 90px;">I'm  started with HTML,CSS and after basics of javascript<br><br>so it will help me to develop my coding skills </h2>
+   <div style="position: absolute;top:590px;padding-left: 880px;"class="animation-container">
+    <img style="height: 400px;width:600px"src="https://cdn.vectorstock.com/i/500p/71/50/business-3d-isometric-mega-set-collection-flat-vector-51357150.avif" class="image-1">
+    <img style="height:400px;width:600px" src="https://cdn.vectorstock.com/i/500p/50/07/3d-isometric-flat-of-teamwork-vector-51645007.avif" class="image-2">
+  </div>
+</div>
+<i style="padding-top: 188px;padding-left: 670px;"class="fa-solid fa-bell"></i><h1 style="position: absolute;top:1000px;padding-left:700px;color: blue;">Skills</h1>
+<div class="box">
+    <div class="corn">
+    <div class="b1">HTML</div><br><br>
+    <div class="b2">CSS</div><br><br>
+    <div class="b3">JAVA<br>SCRIPT</div><br><br>
+    <div class="b4">JAVA</div>
+    <div style="margin-top: 40px;"class="b5">SQL</div>
+    </div>
+    </div>
+    <i style="padding-top: 50px;padding-left: 660px;"class="fa-solid fa-bell"></i>
+    <center><h1 style="position: absolute;top:1500px;padding-left: 690px;color: blue;">Projects</h1></center>
+    <h1 style="padding-left: 580px;padding-top: 10px;">My Self Mini Projects :</h1>
+       <div class="card">
+        <div style="background-color: white;" class="c1"><img style="padding-left: 15px;padding-top: 10px;" src="https://e7.pngegg.com/pngimages/332/615/png-clipart-phonepe-india-unified-payments-interface-india-purple-violet.png"height="100px"width="150px"><br><h3 style="padding-left: 10px;">This is my phonepe clone homepage</h3>
+        <button style="margin-left: 45px;text-decoration: none;background-color: brown;"><a style="text-decoration: none;color: black;" href="http://127.0.0.1:3000/bharat.html">click here</a></button></div>
+        <div style="background-color: white;"class="c2"><img style="padding-left: 15px;padding-top: 10px;" src="https://w7.pngwing.com/pngs/605/888/png-transparent-resume-curriculum-vitae-template-moto-highway-racing-computer-icons-resume-blue-text-resume-thumbnail.png"height="100px"width="150px"><h3 style="padding-left: 10px;">This is my resume</h3>
+            <button style="margin-left: 45px;margin-top: 20px;background-color: brown;"><a style="text-decoration: none;color: black;"href="http://127.0.0.1:3000/win.html">click here</a></button></div> 
+            <div style="background-color: white;" class="c3"><img style="padding-left: 15px;padding-top: 10px;" src="https://cdn-icons-png.flaticon.com/512/1176/1176289.png"height="100px"width="150px"><h3 style="padding-left: 10px;">This is calculator</h3>
+                <button style="margin-left: 45px;margin-top: 20px;background-color: brown;"><a style="text-decoration: none;color: black;"href="http://127.0.0.1:3000/calculator1.html">click here</a></button></div> 
+       </div>
+       <div id="blast"></div>
+       <i style="padding-top: 40px;padding-left: 675px;"class="fa-solid fa-bell"></i><center><h1 style="position: absolute;top:1960px;padding-left: 700px;color: blue;">Internships</h1></center>
+       <center><h2 style="padding-top: 20px;">Internships from CodSoft and CodeAlpha</h2></center>
+       <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-vVuajDAV9ZohhSyEHS6k-8dN7seIbqYIw&s"></center>
+       <i style="padding-top: 40px;padding-left: 675px;"class="fa-solid fa-bell"></i><h1 style="position: absolute;top:2300px;padding-left: 700px;color: blue;">Declaration</h1></center>
+       <center><h2>The information mentioned in my portfolio is correct<br> <br>as best of my knowledge</h2></center>
+      <div class="footer"><a href="https://www.linkedin.com/in/chaitanyalakshmi-vaddemgunta-b2596a2a8/"><img style="padding-top: 10px;padding-left: 10px;"src="data:image/png;base64,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"height="30px"></a>
+<p style="color: white;">My LinkedIn Profile</p><br><center><h1 style="color: aliceblue;">Work Hard Until Success Hits You</h1></center></div>
+      <script>
+      var blast = document.getElementById('blast');
+
+// Add the animation class to trigger the blasting effect
+blast.classList.add('animate');
+
+// Remove the animation class after the animation finishes
+setTimeout(function() {
+	blast.classList.remove('animate');
+}, 1000);
+</script>
+</body>
+</html>
